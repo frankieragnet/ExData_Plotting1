@@ -1,8 +1,8 @@
 plot4 <- function()
 {
   ##RE COMMENT OUT
-  #download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", destfile="./PowerConsumption.zip")
-  #unzip("PowerConsumption.zip")
+  download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", destfile="./PowerConsumption.zip")
+  unzip("PowerConsumption.zip")
   
   ## Estimated memory requirements can be estimated using pryr
   ##install.packages("pryr")
